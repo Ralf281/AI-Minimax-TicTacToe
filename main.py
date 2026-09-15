@@ -46,11 +46,58 @@ def player_move(board):
             print("Palun sisesta number 1 kuni 9.")
 
 
+def minimax(board, maximizing):
+    result = check_winner(board)
+
+    if result == "O":
+        return 1
+    elif result == "X":
+        return -1
+    elif result == "Viik":
+        return 0
+
+    if maximizing:
+        best_score = -float("inf")
+
+        for i in range(9):
+            if board[i] not in ["X", "O"]:
+                board[i] = "O"
+                score = minimax(board, False)
+                board[i] = str(i + 1)
+
+                best_score = max(best_score, score)
+
+        return best_score
+
+    else:
+        best_score = float("inf")
+
+        for i in range(9):
+            if board[i] not in ["X", "O"]:
+                board[i] = "X"
+                score = minimax(board, True)
+                board[i] = str(i + 1)
+
+                best_score = min(best_score, score)
+
+        return best_score
+
+    
 def computer_move(board):
+    best_score = -float("inf")
+    best_move = None
+
     for i in range(9):
         if board[i] not in ["X", "O"]:
             board[i] = "O"
-            break
+            score = minimax(board, False)
+            board[i] = str(i + 1)
+
+            if score > best_score:
+                best_score = score
+                best_move = i
+
+    board[best_move] = "O"
 
 
 def main():

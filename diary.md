@@ -22,3 +22,22 @@ Esimeses versioonis ei mänginud arvuti strateegiliselt, vaid valis lihtsalt esi
 
 **Muljed:**
 Esimene versioon oli lihtne ja töötas ootuspäraselt. Järgmiseks tuleb muuta arvuti targemaks, kasutades Minimax-algoritmi.
+
+
+## 15.09.2026 – Etapp 2: Minimax-algoritm
+
+**Eesmärk:**
+Muuta arvuti mängukäike targemaks, kasutades Minimax-algoritmi.
+
+**Kasutatud viip:**
+„Lisa olemasolevale Pythonis kirjutatud trips-traps-trulli mängule Minimax-algoritm, nii et arvuti valiks võimalikult hea käigu. Ära kirjuta kogu programmi nullist, vaid muuda olemasolevat koodi. Selgita ka, kuidas Minimax töötab.“
+
+**Muudatused:**
+Olemasolevat programmi ei kirjutatud täielikult ümber. Muudeti `computer_move()` funktsiooni ning lisati `minimax()` funktsioon. Ülejäänud mänguloogika jäi samaks.
+
+**Testimise tulemus:**
+Mängisin mängu uuesti läbi. Arvuti suutis minu võidukat käiku takistada ning mäng lõppes viigiga. See näitas, et Minimax-algoritm töötab ja arvuti teeb nüüd varasemast strateegilisemaid käike.
+
+**Mulje:**
+Minimax muutis arvuti mängimise oluliselt paremaks. Esimeses versioonis valis arvuti lihtsalt esimese vaba koha, kuid nüüd analüüsib ta võimalikke mängukäike.
+
