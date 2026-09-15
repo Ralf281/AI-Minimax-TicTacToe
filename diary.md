@@ -83,3 +83,22 @@ Kõik testid läbisid edukalt. Programm käitus kõigis kontrollitud olukordades
 
 **Järeldus:**
 Testimise tulemusena ei leitud programmist vigu ning koodi ei olnud vaja muuta.
+
+
+## 15.09.2026 – Etapp 5: Koodi lõplik ülevaatus
+
+**Eesmärk:**
+Kontrollida AI abil olemasoleva programmi koodi loetavust, ülesehitust ja võimalikke praktilisi probleeme.
+
+**Kasutatud viip:**
+„Vaata üle minu olemasolev trips-traps-trulli programm. Hinda koodi loetavust, ülesehitust ja võimalikke vigu. Ära muuda koodi. Too välja ainult sellised probleemid või parendusettepanekud, millel oleks selle väikese projekti puhul päriselt praktiline kasu.“
+
+**AI analüüs:**
+Tehisaru hinnangul on programm väikese projekti jaoks hästi üles ehitatud ja loetav. Erinevad ülesanded on jaotatud eraldi funktsioonidesse ning Minimax-algoritm töötab korrektselt.
+AI tõi välja mõned väiksemad võimalikud parandused, näiteks korduvate väärtuste ("X" ja "O") koondamise ning winning_combinations loendi loomise ainult ühe korra.
+
+**Otsus:**
+Koodi ei muudetud, sest leitud punktid ei tekita praeguses programmis praktilisi probleeme. Trips-traps-trull on väga väike mäng ning olemasolev Minimax töötab piisavalt kiiresti ja kasutab vähe mälu.
+
+**Tulemus:**
+Programmi lõplikul ülevaatusel olulisi vigu ei leitud. Koodi muudatusi ei olnud vaja teha ning programm jäi samasse toimivasse seisundisse.
