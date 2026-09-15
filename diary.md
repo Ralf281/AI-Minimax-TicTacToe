@@ -58,3 +58,28 @@ Optimeerimist praegu ei rakendatud, sest see ei annaks nii väikese mängu puhul
 
 **Tulemus:**
 Programm jäeti muutmata. 
+
+
+## 15.09.2026 – Etapp 4: Programmi testimine
+
+**Eesmärk:**
+Kontrollida, kas olemasolev trips-traps-trulli programm töötab erinevates olukordades korrektselt.
+
+**Kasutatud viip:**
+„Analüüsi minu olemasolevat trips-traps-trulli programmi ja paku välja konkreetsed testid, millega kontrollida, kas mäng töötab korrektselt. Ära muuda veel koodi. Testid peaksid hõlmama vigast sisendit, hõivatud mänguvälja, mängija võitu, arvuti võitu, viiki ning olukorda, kus Minimax peab mängija võidukäigu blokeerima.“
+
+**Testimine:**
+Testisin programmi järgmistes olukordades:
+
+* vigane sisend;
+* juba hõivatud mänguvälja valimine;
+* mängija võit;
+* arvuti võit;
+* viik;
+* olukord, kus Minimax peab mängija võidukäigu blokeerima.
+
+**Tulemus:**
+Kõik testid läbisid edukalt. Programm käitus kõigis kontrollitud olukordades nii, nagu oli oodatud. Vigase sisendi ja hõivatud mänguvälja puhul ei jooksnud programm kokku ning Minimax suutis mängija võidukäigu blokeerida.
+
+**Järeldus:**
+Testimise tulemusena ei leitud programmist vigu ning koodi ei olnud vaja muuta.
