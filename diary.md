@@ -41,3 +41,20 @@ Mängisin mängu uuesti läbi. Arvuti suutis minu võidukat käiku takistada nin
 **Mulje:**
 Minimax muutis arvuti mängimise oluliselt paremaks. Esimeses versioonis valis arvuti lihtsalt esimese vaba koha, kuid nüüd analüüsib ta võimalikke mängukäike.
 
+
+## 15.09.2026 – Etapp 3: Arvutus- ja mäluressursside analüüs
+
+**Eesmärk:**
+Kontrollida, kas Minimax-algoritmi oleks trips-traps-trulli puhul vaja optimeerida ning hinnata programmi arvutus- ja mälukasutust.
+
+**Kasutatud viip:**
+„Analüüsi minu olemasoleva trips-traps-trulli mängu Minimax-algoritmi arvutus- ja mälukasutust. Kas selle programmi puhul on optimeerimine tegelikult vajalik? Kui ei ole, põhjenda miks. Kui on, paku välja võimalikud optimeerimisvõimalused, kuid ära muuda veel koodi.“
+
+**AI analüüs:**
+Tehisaru hinnangul ei ole praeguse programmi optimeerimine vajalik. Trips-traps-trulli mängul on ainult üheksa mänguvälja ning võimalike käikude arv on piiratud. Minimax suudab võimalikke mängukäike piisavalt kiiresti läbi analüüsida ning mälukasutus on samuti väike.
+
+**Otsus:**
+Optimeerimist praegu ei rakendatud, sest see ei annaks nii väikese mängu puhul olulist praktilist kasu.
+
+**Tulemus:**
+Programm jäeti muutmata. 
